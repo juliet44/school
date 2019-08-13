@@ -1,0 +1,169 @@
+/* Tooltips */
+.trx_addons_tooltip {
+	border-bottom-style: solid;
+}
+.trx_addons_tooltip:before {
+	font-size:1em;
+	line-height:1.3em;
+	padding: 0.4em 1.3em;
+	-webkit-transform:translateX(-50%);
+	    -ms-transform:translateX(-50%);
+	        transform:translateX(-50%);
+	-webkit-border-radius: 0 !important;
+	    -ms-border-radius: 0 !important;
+			border-radius: 0 !important;
+}
+.trx_addons_tooltip:after {
+	margin-bottom:-8px;
+	-webkit-transform:none;
+	    -ms-transform:none;
+	        transform:none;
+}
+
+/*Accent BG*/
+.trx_addons_accent_bg {
+    padding: 0.1em 0.3em !important;
+}
+
+
+/* Dropcaps */
+.trx_addons_dropcap {
+    font-family: "Fira Sans";
+    font-size: 2.143rem;
+    font-weight: 500;
+	padding: 0;
+	margin: 0.25em 0.4em 0 0;
+    width: 3.857rem;
+    line-height: 3.857rem;
+    height: 3.857rem;
+	-webkit-border-radius: 50%;
+	    -ms-border-radius: 50%;
+			border-radius: 50%;
+}
+
+/* Tiny text */
+.trx_addons_tiny_text {
+	letter-spacing:2px;
+}
+
+/* Lists */
+.trx_addons_list_parameters > li > strong,
+.trx_addons_list_parameters > li > em {
+	color:inherit;
+}
+.trx_addons_list_parameters > li > em {
+	font-family:inherit;
+}
+.trx_addons_list_dot li:before {
+    top: 0.05em !important;
+    left: -0.7em !important;
+    font-size: 24px;
+}
+li {
+    margin-bottom: 7px;
+}
+ul.trx_addons_list_custom li:before {
+    color: #ebc306 !important;
+    font-weight: 600;
+}
+.scheme_default ul[class*="trx_addons_list"][class*="_circled"]>li:before {
+    border: 1px solid #eaeaea;
+    padding-left: 1px;
+    padding-top: 1px;
+    width: 1.4em !important;
+    height: 1.4em !important;
+    line-height: 1.4em !important;
+}
+ul[class*="trx_addons_list"] {
+    line-height: 2.071rem !important;
+}
+ul[class*="trx_addons_list"] > li {
+    margin: 0 !important;
+}
+.trx_addons_list.trx_addons_list_arrow {
+    padding-left: 4.7rem;
+}
+.trx_addons_list.trx_addons_list_arrow li {
+    position: relative;
+    color: #747c84;
+    font-family: "Fira Sans";
+    font-size: 1.071rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem !important;
+    letter-spacing: 0.2px;
+}
+.trx_addons_list.trx_addons_list_arrow li:before {
+    content: '\E8B0';
+    font-family: 'fontello';
+    color: #ebc306 !important;
+    position: absolute;
+    left: -4.7rem;
+    font-size: 1.3rem;
+    top: -0.7rem;
+    border: 2px solid #eaeaea;
+    width: 3.129rem;
+    height: 3.129rem;
+    line-height: 3.129rem;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*Button*/
+.sc_button.sc_button_size_normal {
+    font-size: 1.071rem;
+    letter-spacing: 0;
+    padding: 1.5rem 2.8349rem;
+}
+.sc_button.sc_button_size_large {
+    font-size: 1.071rem;
+    letter-spacing: 0;
+    padding: 1.5rem 6.1rem;
+}
+.sc_item_button a {
+    letter-spacing: 0;
+    background-color: transparent;
+}
+.sc_button_default, .sc_form_field_button button {
+    position: relative;
+    overflow: visible !important;
+}
+.sc_button_default:before, .sc_form_field_button button:before {
+    content: '';
+    position: absolute;
+    border: #ebc32c solid 2px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+    -webkit-border-radius: 2.786rem;
+    -ms-border-radius: 2.786rem;
+    border-radius: 2.786rem;
+}
+.sc_button_default:hover:before, .sc_button_default:focus:before, .sc_button_default:active:before, .sc_form_field_button button:hover:before, .sc_form_field_button button:focus:before, .sc_form_field_button button:active:before {
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    left: -6px;
+}
+.sc_button_simple {
+    font-size: 1.071rem !important;
+    font-weight: 500 !important;
+    padding: 0 1.4rem !important;
+}
+
+
+/*Sidebar*/
+.sidebar_inner {
+    padding: 0 2.5rem;
+}
+.post_counters_item, .comment_counters_item {
+    margin-left: 0 !important;
+}
+
